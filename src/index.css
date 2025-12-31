@@ -1,0 +1,36 @@
+/* Ensure content visible between fixed header & footer */
+main {
+  min-height: calc(100vh - 64px - 60px); /* header + footer heights */
+}
+
+/* Prevent footer overlap on small screens */
+footer.fixed-bottom {
+  z-index: 1020;
+}
+
+/* Improve touch targets for mobile */
+.navbar .nav-link {
+  padding: 0.5rem 0.75rem;
+}
+
+/* Card visuals */
+.card {
+  border-radius: 0.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url('/BackgroundPage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* Override background for home page */
+.home-page {
+  background: none !important;
+}
