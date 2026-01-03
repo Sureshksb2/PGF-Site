@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import ImageCarousel from '../components/ImageCarousel'
-import YouTubeLive from '../components/YouTubeLive'
 import MapEmbed from '../components/MapEmbed'
 import ContactForm from '../components/ContactForm'
 import ContactSection from '../components/ContactSection'

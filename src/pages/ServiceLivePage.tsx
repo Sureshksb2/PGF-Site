@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const ServiceLivePage = () => {
   const boxStyle = {
@@ -7,12 +7,6 @@ const ServiceLivePage = () => {
     padding: "20px",
     margin: "10px",
     boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
-  };
-
-  const headingStyle = {
-    color: "#2c3e50",
-    marginBottom: "16px",
-    textAlign: "center",
   };
 
   return (
@@ -42,7 +36,7 @@ const ServiceLivePage = () => {
             backgroundColor: "#f9f9f9",
           }}
         >
-          <h2 style={headingStyle}>📺 Watch Our Live Service</h2>
+          <h2>📺 Watch Our Live Service</h2>
           <div style={{ maxWidth: "100%", margin: "0 auto" }}>
             <iframe
               width="100%"
@@ -58,7 +52,7 @@ const ServiceLivePage = () => {
 
         {/* Announcements Section */}
         <section style={{ ...boxStyle, backgroundColor: "#ffffff" }}>
-          <h2 style={headingStyle}>📢 Live Service Announcements</h2>
+          <h2>📢 Live Service Announcements</h2>
 
           {/* Sunday Service */}
           <div

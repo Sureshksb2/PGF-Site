@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/ChurchServiceTimings.css"; // Import the CSS file
 
 const ChurchServiceTimings = () => {
