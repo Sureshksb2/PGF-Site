@@ -1,0 +1,66 @@
+.footer-top {
+  padding: 40px 0;
+  background: #f9f9f9;
+}
+
+.footer-top-head {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-top-head span {
+  color: #d9534f; /* festive red */
+}
+
+.contact-box {
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-box h5 {
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Box Colors */
+.email-box {
+  background: #e6f7ff; /* light blue */
+  border-left: 6px solid #007bff; /* deep blue */
+}
+
+.phone-box {
+  background: #e8fce8; /* light green */
+  border-left: 6px solid #28a745; /* dark green */
+}
+
+.address-box {
+  background: #fff3e0; /* soft orange */
+  border-left: 6px solid #ff9800; /* orange accent */
+}
+
+.branch-box {
+  background: #fdecea; /* light red/pink */
+  border-left: 6px solid #d9534f; /* festive red */
+}
+
+.contact-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-box li {
+  margin-bottom: 10px;
+}
+
+.contact-box a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-box a:hover {
+  color: #d9534f;
+}

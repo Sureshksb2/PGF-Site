@@ -18,6 +18,7 @@ const Header: React.FC = () => {
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
+            <Nav.Link as={Link} to="/service-live">Service Live</Nav.Link>
             <Nav.Link as={Link} to="/edit-images">Edit Images</Nav.Link>
           </Nav>
         </Navbar.Collapse>

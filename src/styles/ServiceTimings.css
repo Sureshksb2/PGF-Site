@@ -1,0 +1,45 @@
+.service-timings-box {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.service-timings-box h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+  color: #333;
+}
+
+/* Each section inside the same box */
+.service-section {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.service-section h4 {
+  margin-bottom: 0.6rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Color themes per day */
+.section-sunday {
+  background: linear-gradient(135deg, #4CAF50, #81C784); /* Green shades */
+}
+
+.section-saturday {
+  background: linear-gradient(135deg, #FF9800, #FFB74D); /* Orange shades */
+}
+
+.section-wednesday {
+  background: linear-gradient(135deg, #3F51B5, #7986CB); /* Blue shades */
+}
+
+.service-section ul li {
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}

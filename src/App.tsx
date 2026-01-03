@@ -7,6 +7,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Login from './pages/Login'
 import EditImages from './pages/EditImages'
+import ServiceLivePage from './pages/ServiceLivePage';
 import ProtectedRoute from './components/ProtectedRoute'
 import { AuthProvider } from './context/AuthContext'
 import { ImagesProvider } from './context/ImagesContext'
@@ -30,6 +31,7 @@ const App: React.FC = () => {
                 </ProtectedRoute>
               }
             />
+            <Route path="/service-live" element={<ServiceLivePage />} />
           </Routes>
         </main>
         <Footer />

@@ -30,6 +30,7 @@ const Contact: React.FC = () => {
         </div>
         
       </section>
+      
     </Container>
   )
 }

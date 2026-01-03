@@ -22,13 +22,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  background-image: url('/BackgroundPage.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-}
+
 
 /* Override background for home page */
 .home-page {
